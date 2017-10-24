@@ -1,0 +1,55 @@
+<div class="modal fade" id="mini_modal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <a href="https://github.com/jklockri/mini-capstone">
+        <h5 class="modal-title" style="color:black">Mock Store
+          <i style="color:red" class="fa fa-external-link-square" aria-hidden="true"></i>
+        </h5>
+      </a>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div id="mini_carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mini_carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mini_carousel" data-slide-to="1"></li>
+          <li data-target="#mini_carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <%=image_tag 'Mini1.png', class:'img-fluid d-block w-100'%>
+          </div>
+          <div class="carousel-item">
+            <%=image_tag 'Mini2.png', class:'img-fluid d-block w-100'%>
+          </div>
+          <div class="carousel-item">
+            <%=image_tag 'Mini3.png', class:'img-fluid d-block w-100'%>
+          </div>
+          <div class="carousel-item">
+            <%=image_tag 'Mini4.png', class:'img-fluid d-block w-100'%>
+          </div>
+          <div class="carousel-item">
+            <%=image_tag 'Mini5.png', class:'img-fluid d-block w-100'%>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mini_carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mini_carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-info" data-toggle="popover" title="Mock Store" data-content="This was a project that I built with rails and JavaScript. It is basically a mini amazon, with an admin view. ">Info</button>
+
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
